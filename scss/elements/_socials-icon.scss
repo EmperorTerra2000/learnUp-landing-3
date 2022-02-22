@@ -1,0 +1,11 @@
+.socials-icon {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__image {
+    width: 20px;
+    height: 20px;
+  }
+}

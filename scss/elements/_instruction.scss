@@ -1,0 +1,36 @@
+.instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+
+  &__block {
+    margin-left: 130px;
+    max-width: 433px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: $fontSize-5;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: $color-4;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    font-size: $fontSize-3;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: $color-2;
+  }
+
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+
+    .instruction__block {
+      margin-left: 0;
+      margin-right: 130px;
+    }
+  }
+}

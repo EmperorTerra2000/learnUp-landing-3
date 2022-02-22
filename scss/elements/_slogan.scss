@@ -1,0 +1,29 @@
+.slogan {
+  &__content {
+    padding: 66px 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    max-width: 456px;
+    font-weight: bold;
+    font-size: $fontSize-8;
+    line-height: 80px;
+    color: $color-3;
+    letter-spacing: -0.03em;
+  }
+
+  &__block-right {
+    max-width: 400px;
+  }
+
+  &__text {
+    font-size: $fontSize-3;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: $color-2;
+    margin-bottom: 30px;
+  }
+}

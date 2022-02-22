@@ -1,0 +1,33 @@
+.features-item {
+  width: 400px;
+  border: 1px solid rgba(204, 210, 233, 0.5);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 25px;
+  transition: all 300ms linear;
+
+  &:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+  }
+
+  &__img {
+    margin-bottom: 38px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: $fontSize-4;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: $color-5;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    font-size: $fontSize-2;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: $color-5;
+  }
+}
