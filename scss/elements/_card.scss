@@ -1,0 +1,76 @@
+.card {
+  width: 400px;
+  min-height: 630px;
+  border-radius: 16px;
+  background: $bgColor-4;
+  box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+  padding: 49px 55px;
+  position: relative;
+  transition: all linear 300ms;
+
+  .button {
+    background-color: $bgColor-5;
+    transition: all linear 300ms;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: $fontSize-3;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: $color-2;
+    margin-bottom: 12px;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: $fontSize-7;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    color: $bgColor-5;
+    margin-bottom: 48px;
+
+    span {
+      color: $color-6;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding-top: 47px;
+    border-top: 2px solid rgba(78, 90, 133, 0.16);
+    margin-bottom: 48px;
+  }
+
+  &__list-item {
+    font-size: $fontSize-2;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: $color-7;
+    display: block;
+    margin-bottom: 20px;
+
+    &:before {
+      content: url('../../assets/check.svg');
+      position: relative;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      margin-right: 14px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-81px);
+    background: #162044;
+
+    .button {
+      background-color: #0059f7;
+    }
+  }
+}

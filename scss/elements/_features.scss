@@ -1,0 +1,27 @@
+.features {
+  margin-top: 190px;
+
+  &__content {
+    padding: 0 220px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: $fontSize-6;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: $color-4;
+    margin-bottom: 19px;
+  }
+
+  &__description {
+    font-size: $fontSize-3;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: $color-2;
+  }
+
+  &__block-title {
+    max-width: 400px;
+  }
+}
